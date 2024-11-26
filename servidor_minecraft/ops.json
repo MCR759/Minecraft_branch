@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "638f9b0f-fa1b-3f7c-ad33-43ff8ea00123",
+    "name": "Goezz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "48f83307-567a-33d7-8604-3b22ee4c1b84",
+    "name": "Ghost",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

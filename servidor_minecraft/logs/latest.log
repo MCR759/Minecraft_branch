@@ -1,0 +1,936 @@
+[25Nov2024 03:39:36.775] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[25Nov2024 03:39:36.782] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[25Nov2024 03:39:42.582] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Nov2024 03:39:42.667] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Nov2024 03:39:43.304] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[25Nov2024 03:39:43.307] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Nov2024 03:39:43.308] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Nov2024 03:39:43.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Nov2024 03:39:43.763] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Nov2024 03:39:43.765] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar
+[25Nov2024 03:39:43.765] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[25Nov2024 03:39:47.242] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Nov2024 03:39:47.379] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[25Nov2024 03:39:47.475] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[25Nov2024 03:39:47.538] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.541] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.556] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.568] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.569] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.709] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.713] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.720] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.721] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.787] [main/INFO] [Puzzles Lib/]: Loading 77 mods:
+	- additionalstructures 4.2.1
+	- aether 1.20.1-1.4.2-neoforge
+		|-- cumulus_menus 1.20.1-1.0.0-neoforge
+		\-- nitrogen_internals 1.20.1-1.0.7-neoforge
+	- alexsmobs 1.22.8
+	- architectury 9.2.14
+	- badpackets 0.4.3
+	- beautify 2.0.2
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.1.0
+	- carryon 2.1.2.7
+	- cataclysm 2.27
+	- cfm 7.0.0-pre36
+	- citadel 2.5.4
+	- cloth_config 11.1.118
+	- cobweb 1.0.0
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.12
+	- creativecore 2.12.22
+	- creeperoverhaul 3.0.2
+		\-- resourcefullib 2.1.20
+	- curios 5.9.1+1.20.1
+	- do_a_barrel_roll 3.5.6+1.20.1
+		\-- mixinextras 0.3.2
+	- easier_sleeping 2.1.3
+	- easymagic 8.0.1
+	- easyshulkerboxes 8.0.2
+		|-- puzzlesaccessapi 8.0.9
+		\-- puzzlesapi 8.1.6
+	- ecologics 2.2.0
+	- elevatorid 1.20.1-lex-1.9
+	- fantasyfurniture 9.0.0
+		|-- apexcore 10.0.0
+		\-- commonality 7.0.0
+	- forge 47.2.0
+	- framework 0.7.6
+	- geckolib 4.4.7
+	- harvest_with_ease 9.3.0
+	- hole_filler_mod 1.2.8
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- incendium 5.3.5
+	- inventorysorter 23.0.1
+	- jade 11.9.4+forge
+	- journeymap 5.10.1
+	- konkrete 1.8.0
+	- libraryferret 4.0.0
+	- lionfishapi 2.4-Fix
+	- mcwbridges 3.0.0
+	- mcwroofs 2.3.0
+	- mes 1.3.1-1.20-forge
+	- minecraft 1.20.1
+	- mns 1.0.1-1.20-forge
+	- mowziesmobs 1.6.4
+	- mvs 4.1.2-1.20-forge
+	- naturalist 4.0.3
+	- playerrevive 2.0.26
+	- plushies 1.4.0
+	- puzzleslib 8.1.21
+	- refurbished_furniture 1.0.2
+	- repurposed_structures 7.1.15+1.20.1-forge
+	- resourcefulconfig 2.1.2
+	- ribbits 1.20.1-Forge-3.0.0
+	- roughlyenoughitems 12.1.725
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- takesapillage 1.0.3
+	- tectonic 2.3.5a
+	- travelerstitles 1.20-Forge-4.0.2
+	- visualworkbench 8.0.0
+	- waterframes 2.1.7a
+	- watut 1.20.1-1.1.1
+	- wi_zoom 1.5-MC1.20.1-Forge
+	- yungsapi 1.20-Forge-4.0.5
+[25Nov2024 03:39:47.793] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:47.795] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2024 03:39:49.335] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[25Nov2024 03:39:57.096] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhg000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[25Nov2024 03:39:58.960] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:iteminteractions
+[25Nov2024 03:39:59.038] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[25Nov2024 03:39:59.125] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[25Nov2024 03:39:59.165] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:slotcycling
+[25Nov2024 03:39:59.167] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:limitlesscontainers
+[25Nov2024 03:39:59.187] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:statues
+[25Nov2024 03:39:59.396] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[25Nov2024 03:39:59.425] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[25Nov2024 03:39:59.784] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[25Nov2024 03:39:59.856] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[25Nov2024 03:39:59.857] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[25Nov2024 03:39:59.872] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[25Nov2024 03:39:59.873] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[25Nov2024 03:40:00.090] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.20.1', & Forge '47.2.0' on Java '21.0.4, Microsoft'
+[25Nov2024 03:40:00.096] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
+[25Nov2024 03:40:00.653] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loading config:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/config/hole_filler_mod.toml
+[25Nov2024 03:40:00.664] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Built config:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/config/hole_filler_mod.toml
+[25Nov2024 03:40:00.672] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loaded config:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/config/hole_filler_mod.toml
+[25Nov2024 03:40:00.761] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider AetherREIServerPlugin [aether] for REIPlugin
+[25Nov2024 03:40:00.828] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Nov2024 03:40:00.833] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[25Nov2024 03:40:00.836] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[25Nov2024 03:40:00.836] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[25Nov2024 03:40:00.848] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[25Nov2024 03:40:00.848] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[25Nov2024 03:40:00.880] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider AetherREIServerPlugin [aether] for REIServerPlugin
+[25Nov2024 03:40:00.893] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[25Nov2024 03:40:00.904] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[25Nov2024 03:40:00.908] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[25Nov2024 03:40:00.909] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[25Nov2024 03:40:00.910] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[25Nov2024 03:40:00.911] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[25Nov2024 03:40:01.048] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[25Nov2024 03:40:01.745] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
+[25Nov2024 03:40:01.746] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
+[25Nov2024 03:40:01.747] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[25Nov2024 03:40:01.747] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
+[25Nov2024 03:40:01.747] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[25Nov2024 03:40:02.052] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[25Nov2024 03:40:02.090] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyshulkerboxes:main
+[25Nov2024 03:40:02.756] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
+[25Nov2024 03:40:02.756] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
+[25Nov2024 03:40:02.757] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[25Nov2024 03:40:02.757] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
+[25Nov2024 03:40:08.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesapi.json
+[25Nov2024 03:40:08.299] [main/INFO] [journeymap/]: Initializing Packet Registries
+[25Nov2024 03:40:08.320] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[25Nov2024 03:40:08.321] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[25Nov2024 03:40:08.321] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[25Nov2024 03:40:08.322] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[25Nov2024 03:40:08.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Found status: BETA Current: 8.1.6 Target: null
+[25Nov2024 03:40:08.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Starting version check at https://api.modrinth.com/updates/harvest-with-ease/forge_updates.json
+[25Nov2024 03:40:08.471] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[25Nov2024 03:40:08.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Found status: UP_TO_DATE Current: 9.3.0 Target: null
+[25Nov2024 03:40:08.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[25Nov2024 03:40:08.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[25Nov2024 03:40:08.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[25Nov2024 03:40:08.612] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[25Nov2024 03:40:08.622] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[25Nov2024 03:40:08.624] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Nov2024 03:40:08.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.20.1-1.4.2-neoforge Target: 1.20.1-1.5.1-neoforge
+[25Nov2024 03:40:08.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[25Nov2024 03:40:08.638] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Nov2024 03:40:08.643] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Nov2024 03:40:08.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[25Nov2024 03:40:08.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[25Nov2024 03:40:08.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[25Nov2024 03:40:08.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
+[25Nov2024 03:40:08.812] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[25Nov2024 03:40:08.812] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[25Nov2024 03:40:08.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: OUTDATED Current: 4.2.1 Target: 4.2.2
+[25Nov2024 03:40:08.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[25Nov2024 03:40:08.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.9 Target: null
+[25Nov2024 03:40:08.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Nov2024 03:40:08.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[25Nov2024 03:40:08.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[25Nov2024 03:40:09.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.12 Target: 1.20.1-1.0.17
+[25Nov2024 03:40:09.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[25Nov2024 03:40:09.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
+[25Nov2024 03:40:09.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[25Nov2024 03:40:09.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 7.0.0 Target: 10.0.0
+[25Nov2024 03:40:09.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[25Nov2024 03:40:09.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: OUTDATED Current: 1.20.1-1.0.0-neoforge Target: 1.20.1-1.0.1-neoforge
+[25Nov2024 03:40:09.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[25Nov2024 03:40:09.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: OUTDATED Current: 2.3.0 Target: 2.3.1
+[25Nov2024 03:40:09.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[25Nov2024 03:40:10.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[25Nov2024 03:40:10.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[25Nov2024 03:40:10.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 10.0.0 Target: null
+[25Nov2024 03:40:10.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
+[25Nov2024 03:40:10.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 9.0.0 Target: null
+[25Nov2024 03:40:10.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[25Nov2024 03:40:10.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.2 Target: 1.0.8
+[25Nov2024 03:40:10.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[25Nov2024 03:40:10.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.21 Target: 8.1.25
+[25Nov2024 03:40:10.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[25Nov2024 03:40:10.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[25Nov2024 03:40:10.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyshulkerboxes.json
+[25Nov2024 03:40:10.949] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[25Nov2024 03:40:15.270] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Nov2024 03:40:19.373] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23237!/assets/.mcassetsroot' uses unexpected schema
+[25Nov2024 03:40:19.374] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/PROYECTO-DE-RESPONSABILIDAD-SOCIAL-RSU/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23237!/data/.mcassetsroot' uses unexpected schema
+[25Nov2024 03:40:22.182] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[25Nov2024 03:40:24.389] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[25Nov2024 03:40:24.407] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[25Nov2024 03:40:24.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[25Nov2024 03:40:24.669] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[25Nov2024 03:40:24.703] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3802 advancements
+[25Nov2024 03:40:24.760] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 17 curio slots
+[25Nov2024 03:40:24.775] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[25Nov2024 03:40:24.778] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[25Nov2024 03:40:24.814] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[25Nov2024 03:40:24.815] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for START.
+[25Nov2024 03:40:24.816] [main/INFO] [REI/]: [REI] Plugins (3):
+[25Nov2024 03:40:24.816] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[25Nov2024 03:40:24.817] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[25Nov2024 03:40:24.817] [main/INFO] [REI/]: [REI]  - (0.00) AetherREIServerPlugin of AetherREIServerPlugin [aether]
+[25Nov2024 03:40:24.817] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[25Nov2024 03:40:24.845] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[25Nov2024 03:40:24.845] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for START.
+[25Nov2024 03:40:24.846] [main/INFO] [REI/]: [REI] Plugins (3):
+[25Nov2024 03:40:24.847] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[25Nov2024 03:40:24.847] [main/INFO] [REI/]: [REI]  - (0.00) AetherREIServerPlugin of AetherREIServerPlugin [aether]
+[25Nov2024 03:40:24.847] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[25Nov2024 03:40:24.848] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[25Nov2024 03:40:24.856] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for START in 2.718 ms, totaling 55.62 ms.
+[25Nov2024 03:40:24.859] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for START in 1.320 ms, totaling 8.571 ms.
+[25Nov2024 03:40:24.864] [main/INFO] [REI/]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[25Nov2024 03:40:24.864] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for END.
+[25Nov2024 03:40:24.865] [main/INFO] [REI/]: [REI] Plugins (3):
+[25Nov2024 03:40:24.865] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[25Nov2024 03:40:24.865] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[25Nov2024 03:40:24.866] [main/INFO] [REI/]: [REI]  - (0.00) AetherREIServerPlugin of AetherREIServerPlugin [aether]
+[25Nov2024 03:40:24.866] [main/INFO] [REI/]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[25Nov2024 03:40:24.897] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[25Nov2024 03:40:24.898] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for END.
+[25Nov2024 03:40:24.899] [main/INFO] [REI/]: [REI] Plugins (3):
+[25Nov2024 03:40:24.899] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[25Nov2024 03:40:24.900] [main/INFO] [REI/]: [REI]  - (0.00) AetherREIServerPlugin of AetherREIServerPlugin [aether]
+[25Nov2024 03:40:24.900] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[25Nov2024 03:40:24.901] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[25Nov2024 03:40:24.917] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for END in 2.667 ms, totaling 36.34 ms.
+[25Nov2024 03:40:24.921] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for END in 1.196 ms, totaling 13.72 ms.
+[25Nov2024 03:40:27.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Nov2024 03:40:27.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Nov2024 03:40:27.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Nov2024 03:40:27.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Nov2024 03:40:27.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Nov2024 03:40:27.961] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Nov2024 03:40:28.062] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Nov2024 03:40:28.063] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Nov2024 03:40:28.063] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Nov2024 03:40:28.063] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Nov2024 03:40:28.086] [Server thread/INFO] [Puzzles Lib/]: Loading server config for puzzlesapi
+[25Nov2024 03:40:28.087] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for puzzlesapi
+[25Nov2024 03:40:28.088] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for puzzlesapi
+[25Nov2024 03:40:28.091] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[25Nov2024 03:40:28.092] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[25Nov2024 03:40:28.093] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[25Nov2024 03:40:28.097] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Nov2024 03:40:28.134] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: Loading "Easier Sleeping" SERVER Config
+[25Nov2024 03:40:28.134] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: sleep_message = is now in bed.
+[25Nov2024 03:40:28.134] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimension_list_type = SLEEP_ACTIVE
+[25Nov2024 03:40:28.134] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: wake_message = stood up.
+[25Nov2024 03:40:28.135] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: block_blacklist = []
+[25Nov2024 03:40:28.135] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: sleep_percent = 50
+[25Nov2024 03:40:28.135] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: morning_message = Good Morning
+[25Nov2024 03:40:28.135] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: all_players_rest = false
+[25Nov2024 03:40:28.136] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimensions = [minecraft:overworld]
+[25Nov2024 03:40:28.136] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: "Easier Sleeping" SERVER Config loaded
+[25Nov2024 03:40:28.423] [Server thread/INFO] [Framework/]: Loading server configs...
+[25Nov2024 03:40:28.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Nov2024 03:40:43.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Nov2024 03:40:50.308] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.319] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.323] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.323] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.324] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.324] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.324] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.325] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.336] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.367] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.375] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.394] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:50.463] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:51.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:51.465] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2024 03:40:51.963] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[25Nov2024 03:40:52.463] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[25Nov2024 03:40:52.561] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8599 ms
+[25Nov2024 03:40:52.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.485s)! For help, type "help"
+[25Nov2024 03:40:52.752] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Nov2024 03:40:52.829] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[25Nov2024 03:40:52.829] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[25Nov2024 03:44:47.592] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[25Nov2024 03:44:47.690] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PieroS[/100.98.207.89:57759] logged in with entity id 79 at (1921.6739111177585, 88.0, 488.41110860376176)
+[25Nov2024 03:44:47.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS joined the game
+[25Nov2024 03:44:47.840] [Server thread/INFO] [Jade/]: Syncing config to PieroS (b243f56c-8220-3c58-81df-c48b48ade004)
+[25Nov2024 03:44:50.168] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 3094ms or 61 ticks
+[25Nov2024 03:44:50.169] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
+[25Nov2024 03:44:51.738] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 03:51:03.944] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost[/100.96.108.24:50193] logged in with entity id 2471 at (2033.4973626610847, 95.0, 384.3587234752918)
+[25Nov2024 03:51:03.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost joined the game
+[25Nov2024 03:51:04.047] [Server thread/INFO] [Jade/]: Syncing config to Ghost (48f83307-567a-33d7-8604-3b22ee4c1b84)
+[25Nov2024 03:51:06.812] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 03:53:05.744] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2109ms or 42 ticks
+[25Nov2024 03:53:06.421] [Worker-Main-9/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Nov2024 03:54:16.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Hot Stuff]
+[25Nov2024 03:55:34.137] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:fletching_table} but failed at location BlockPos{x=1660, y=71, z=733}
+[25Nov2024 03:55:47.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [It's an Emu!!!]
+[25Nov2024 03:55:50.469] [Worker-Main-10/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Nov2024 03:56:29.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost has made the advancement [Voluntary Exile]
+[25Nov2024 04:01:27.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost has made the advancement [Not Today, Thank You]
+[25Nov2024 04:03:24.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost has made the advancement [It's an Emu!!!]
+[25Nov2024 04:04:54.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was slain by Umvuthana
+[25Nov2024 04:04:57.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[25Nov2024 04:05:14.117] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost lost connection: Disconnected
+[25Nov2024 04:05:14.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost left the game
+[25Nov2024 04:05:14.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was slain by Umvuthana
+[25Nov2024 04:05:21.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghost[/100.96.108.24:50468] logged in with entity id 8126 at (1732.1285485617664, 74.0, 709.9442818033436)
+[25Nov2024 04:05:21.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost joined the game
+[25Nov2024 04:05:21.503] [Server thread/INFO] [Jade/]: Syncing config to Ghost (48f83307-567a-33d7-8604-3b22ee4c1b84)
+[25Nov2024 04:05:23.795] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:05:26.616] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:05:57.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS burned to death
+[25Nov2024 04:05:59.056] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:06:27.473] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2052ms or 41 ticks
+[25Nov2024 04:06:45.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost fell from a high place
+[25Nov2024 04:06:52.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost fell from a high place
+[25Nov2024 04:06:54.064] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:07:02.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] quien acaba de morir es gay
+[25Nov2024 04:07:20.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] :v
+[25Nov2024 04:07:31.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> oe
+[25Nov2024 04:07:35.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> haz op ps
+[25Nov2024 04:07:41.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> tamos en sampincho
+[25Nov2024 04:07:57.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25Nov2024 04:07:57.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dime las coordenadas ps, xq en la consola no tengo esa info<--[HERE]
+[25Nov2024 04:08:11.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] dime las coordenadas ps, xq en la consola no tengo esa info
+[25Nov2024 04:08:18.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost drowned
+[25Nov2024 04:09:17.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> x -169 z 37 y 124
+[25Nov2024 04:09:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to -168.500000, 124.000000, 37.500000
+[25Nov2024 04:09:54.410] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DominusCoitus[/100.92.70.105:55829] logged in with entity id 11665 at (-94.5, 116.0, 55.5)
+[25Nov2024 04:09:54.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus joined the game
+[25Nov2024 04:09:54.597] [Server thread/INFO] [Jade/]: Syncing config to DominusCoitus (98444eaa-ae1d-339f-bbd8-ac0f32676ac1)
+[25Nov2024 04:09:54.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Ice and Fire]
+[25Nov2024 04:09:56.748] [Server thread/INFO] [do_a_barrel_roll/]: Client of DominusCoitus accepted server config.
+[25Nov2024 04:10:02.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] la J
+[25Nov2024 04:10:06.141] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2062ms or 41 ticks
+[25Nov2024 04:10:20.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DominusCoitus to Ghost
+[25Nov2024 04:10:29.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DominusCoitus to PieroS
+[25Nov2024 04:11:02.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25Nov2024 04:11:02.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TP PieroS 1729 63 601<--[HERE]
+[25Nov2024 04:11:07.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> x 1729 z 601 y 63
+[25Nov2024 04:11:13.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to 1729.500000, 63.000000, 601.500000
+[25Nov2024 04:11:13.130] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2505ms or 50 ticks
+[25Nov2024 04:11:20.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost drowned
+[25Nov2024 04:11:22.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to 1729.500000, 64.000000, 601.500000
+[25Nov2024 04:11:23.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS suffocated in a wall
+[25Nov2024 04:11:25.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost drowned
+[25Nov2024 04:11:27.056] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:11:27.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[25Nov2024 04:11:27.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tp PieroS 172970 601<--[HERE]
+[25Nov2024 04:11:28.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS suffocated in a wall
+[25Nov2024 04:11:30.545] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:11:38.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to 1729.500000, 70.000000, 601.500000
+[25Nov2024 04:11:38.374] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2073ms or 41 ticks
+[25Nov2024 04:11:47.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to 1729.500000, 80.000000, 601.500000
+[25Nov2024 04:12:01.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[25Nov2024 04:12:01.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tp PieroS 1729 300  601<--[HERE]
+[25Nov2024 04:12:06.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to 1729.500000, 300.000000, 601.500000
+[25Nov2024 04:12:10.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PieroS was kicked for floating too long!
+[25Nov2024 04:12:10.302] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PieroS lost connection: Flying is not enabled on this server
+[25Nov2024 04:12:10.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS left the game
+[25Nov2024 04:12:25.725] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PieroS[/100.98.207.89:57953] logged in with entity id 14128 at (1725.1512067652386, 140.32346386745738, 602.782337538898)
+[25Nov2024 04:12:25.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS joined the game
+[25Nov2024 04:12:25.737] [Server thread/INFO] [Jade/]: Syncing config to PieroS (b243f56c-8220-3c58-81df-c48b48ade004)
+[25Nov2024 04:12:29.024] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:12:29.378] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2099ms or 41 ticks
+[25Nov2024 04:12:30.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS fell from a high place
+[25Nov2024 04:12:32.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Ghost to PieroS
+[25Nov2024 04:12:41.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DominusCoitus to Ghost
+[25Nov2024 04:13:00.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Stone Age]
+[25Nov2024 04:13:06.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to Ghost
+[25Nov2024 04:13:26.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Getting an Upgrade]
+[25Nov2024 04:13:30.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was energized by Lightning Dragon
+[25Nov2024 04:13:30.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS fell from a high place
+[25Nov2024 04:13:32.314] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:13:36.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported PieroS to Ghost
+[25Nov2024 04:14:32.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was energized by a dragon
+[25Nov2024 04:14:33.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was struck with lightning by Lightning Dragon
+[25Nov2024 04:14:34.021] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:15:30.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ghost> tp
+[25Nov2024 04:15:33.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus was struck with lightning by a dragon
+[25Nov2024 04:15:34.557] [Server thread/INFO] [do_a_barrel_roll/]: Client of DominusCoitus accepted server config.
+[25Nov2024 04:15:42.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ghost> activa para podernos tpear nosotros
+[25Nov2024 04:15:44.423] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-92, y=122, z=65}
+[25Nov2024 04:15:44.473] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-93, y=121, z=65}
+[25Nov2024 04:15:44.974] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-93, y=120, z=65}
+[25Nov2024 04:15:45.374] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-93, y=119, z=65}
+[25Nov2024 04:15:50.653] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-97, y=120, z=69}
+[25Nov2024 04:15:51.152] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-98, y=121, z=68}
+[25Nov2024 04:15:51.753] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-98, y=120, z=67}
+[25Nov2024 04:15:51.858] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-98, y=120, z=67}
+[25Nov2024 04:15:52.602] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-96, y=122, z=66}
+[25Nov2024 04:15:52.654] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-96, y=123, z=65}
+[25Nov2024 04:18:57.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was shot by Pillager
+[25Nov2024 04:19:06.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS was shot by Pillager
+[25Nov2024 04:19:07.693] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:19:29.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was slain by Zombie
+[25Nov2024 04:19:35.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was slain by Zombie
+[25Nov2024 04:19:36.813] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:19:52.799] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-102, y=130, z=80}
+[25Nov2024 04:19:54.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-99, y=132, z=81} BlockPos{x=-99, y=129, z=80}
+[25Nov2024 04:19:54.999] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-98, y=131, z=81} BlockPos{x=-99, y=130, z=80}
+[25Nov2024 04:19:55.698] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-96, y=129, z=81} BlockPos{x=-98, y=128, z=80}
+[25Nov2024 04:20:01.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Acquire Hardware]
+[25Nov2024 04:20:25.116] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2160ms or 43 ticks
+[25Nov2024 04:20:35.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was slain by Zombie
+[25Nov2024 04:20:35.999] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-96, y=130, z=81} BlockPos{x=-103, y=125, z=71}
+[25Nov2024 04:20:42.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was slain by Zombie
+[25Nov2024 04:20:43.646] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:20:54.361] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-97, y=117, z=52}
+[25Nov2024 04:20:54.399] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-97, y=118, z=53}
+[25Nov2024 04:20:54.648] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-97, y=118, z=54}
+[25Nov2024 04:20:54.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-96, y=117, z=54}
+[25Nov2024 04:21:14.647] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-102, y=119, z=51}
+[25Nov2024 04:21:16.397] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=121, z=48}
+[25Nov2024 04:21:16.518] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=120, z=48}
+[25Nov2024 04:21:16.547] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=121, z=48}
+[25Nov2024 04:21:16.648] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=121, z=48}
+[25Nov2024 04:21:30.371] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=126, z=48}
+[25Nov2024 04:21:30.521] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=125, z=48}
+[25Nov2024 04:21:30.571] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=124, z=48}
+[25Nov2024 04:21:31.921] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-105, y=125, z=50}
+[25Nov2024 04:21:32.921] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-103, y=123, z=52}
+[25Nov2024 04:21:33.221] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-103, y=123, z=52}
+[25Nov2024 04:21:33.621] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-103, y=121, z=52}
+[25Nov2024 04:21:36.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-103, y=123, z=59}
+[25Nov2024 04:21:42.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was blown up by Jungle Creeper
+[25Nov2024 04:21:46.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] pala paran musay paran muriendo xd
+[25Nov2024 04:21:54.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was blown up by Jungle Creeper
+[25Nov2024 04:21:55.877] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2020ms or 40 ticks
+[25Nov2024 04:21:55.935] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:22:03.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ghost> tp pa todos
+[25Nov2024 04:22:05.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PieroS> dannos op diosito
+[25Nov2024 04:22:16.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Ghost a server operator
+[25Nov2024 04:22:16.274] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:22:24.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] le di a ghost
+[25Nov2024 04:22:36.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Suit Up]
+[25Nov2024 04:22:37.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25Nov2024 04:22:37.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a 1 noma luego configuro el tp para el server<--[HERE]
+[25Nov2024 04:22:55.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] a 1 nomas luego configuro el tp para el server
+[25Nov2024 04:22:57.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 10.241914067729113,0.0,1.8053702461139665
+[25Nov2024 04:22:57.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 10.635833445946218,0.0,1.8748117890426101
+[25Nov2024 04:22:57.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.029752815546829,0.0,1.944253424475562
+[25Nov2024 04:22:57.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.423672177392575,0.0,2.0136951431623515
+[25Nov2024 04:22:57.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.817591532258916,0.0,2.0831369367776347
+[25Nov2024 04:22:57.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 12.211510880843832,0.0,2.1525787978285393
+[25Nov2024 04:22:57.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 12.605430223775443,0.0,2.2220207195715034
+[25Nov2024 04:22:57.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 12.999349561619056,0.0,2.291462695937355
+[25Nov2024 04:22:57.031] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 13.393268894883533,0.0,2.3609047214637826
+[25Nov2024 04:22:57.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 13.78718822402675,0.0,2.43034679123474
+[25Nov2024 04:22:57.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 14.181107549460819,0.0,2.499788900825763
+[25Nov2024 04:22:57.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 14.575026871556702,0.0,2.5692310462547994
+[25Nov2024 04:22:57.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 10.241902488883568,0.0,1.8054945530921032
+[25Nov2024 04:22:57.318] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 10.635821787121301,0.0,1.8749369546549701
+[25Nov2024 04:22:57.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.029741084740465,0.0,1.9443793628586832
+[25Nov2024 04:22:57.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.423660381802904,0.0,2.0138217770391975
+[25Nov2024 04:22:57.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 11.817579678364268,0.0,2.0832641965988046
+[25Nov2024 04:22:57.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 12.211498974474694,0.0,2.152706620999595
+[25Nov2024 04:22:57.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! 12.605418270179314,0.0,2.2221490497574337
+[25Nov2024 04:22:59.238] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -27.180432108309105,0.0,-4.791520018934364
+[25Nov2024 04:22:59.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -26.78651281619051,0.0,-4.722077551678467
+[25Nov2024 04:22:59.318] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -26.392593524078563,0.0,-4.6526350843510045
+[25Nov2024 04:22:59.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -25.998674231972586,0.0,-4.583192616959138
+[25Nov2024 04:22:59.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -17.332448918350565,0.0,-3.055467860026397
+[25Nov2024 04:22:59.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -16.938529626249988,0.0,-2.9860253925766074
+[25Nov2024 04:22:59.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -16.5446103341543,0.0,-2.9165829250746356
+[25Nov2024 04:22:59.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -16.150691042062988,0.0,-2.847140457525711
+[25Nov2024 04:22:59.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -15.756771749975599,0.0,-2.777697989934552
+[25Nov2024 04:22:59.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PieroS) moved too quickly! -15.362852457891734,0.0,-2.7082555223053646
+[25Nov2024 04:23:01.357] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2032ms or 40 ticks
+[25Nov2024 04:23:21.339] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2006ms or 40 ticks
+[25Nov2024 04:23:28.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Isn't It Iron Pick]
+[25Nov2024 04:23:42.709] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2069ms or 41 ticks
+[25Nov2024 04:24:10.804] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=1179, y=120, z=386}
+[25Nov2024 04:24:10.805] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=1177, y=128, z=390}
+[25Nov2024 04:24:14.261] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2036ms or 40 ticks
+[25Nov2024 04:24:22.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost fell off some vines
+[25Nov2024 04:24:28.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost fell off some vines
+[25Nov2024 04:24:30.445] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:24:34.236] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2082ms or 41 ticks
+[25Nov2024 04:24:54.138] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2090ms or 41 ticks
+[25Nov2024 04:25:23.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost has made the advancement [Wingin' It]
+[25Nov2024 04:25:33.524] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2221ms or 44 ticks
+[25Nov2024 04:26:01.042] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2032ms or 40 ticks
+[25Nov2024 04:26:28.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was slain by Naga
+[25Nov2024 04:26:34.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was slain by Naga
+[25Nov2024 04:26:35.670] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:27:01.607] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2069ms or 41 ticks
+[25Nov2024 04:27:02.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [A Seedy Place]
+[25Nov2024 04:27:38.263] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2077ms or 41 ticks
+[25Nov2024 04:27:48.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost fell off some vines
+[25Nov2024 04:27:54.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost fell off some vines
+[25Nov2024 04:27:55.978] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:28:03.491] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2046ms or 40 ticks
+[25Nov2024 04:29:48.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [The Parrots and the Bats]
+[25Nov2024 04:30:40.989] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2038ms or 40 ticks
+[25Nov2024 04:30:49.330] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/24572, l='ServerLevel[world]', x=1249.59, y=94.00, z=402.10] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:31:14.753] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/24664, l='ServerLevel[world]', x=1270.39, y=86.00, z=389.63] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:31:34.574] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2107ms or 42 ticks
+[25Nov2024 04:32:56.301] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2008ms or 40 ticks
+[25Nov2024 04:33:53.324] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2017ms or 40 ticks
+[25Nov2024 04:34:11.927] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[25Nov2024 04:34:12.828] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2359ms or 47 ticks
+[25Nov2024 04:34:29.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was slain by Sea Serpent
+[25Nov2024 04:35:05.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost has made the advancement [Fishy Business]
+[25Nov2024 04:35:55.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Sea Serpent
+[25Nov2024 04:36:47.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS was slain by Sea Serpent
+[25Nov2024 04:36:49.037] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 04:37:02.786] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/36344, l='ServerLevel[world]', x=-138.50, y=82.00, z=562.50]
+[25Nov2024 04:37:11.900] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: miguelpolla08[/100.125.9.118:53262] logged in with entity id 36453 at (1840.768638266851, 110.0, 321.9029984048424)
+[25Nov2024 04:37:11.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 joined the game
+[25Nov2024 04:37:11.919] [Server thread/INFO] [Jade/]: Syncing config to miguelpolla08 (4179cdf6-1a52-3b52-a5cc-315ed1489e12)
+[25Nov2024 04:37:12.664] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2705ms or 54 ticks
+[25Nov2024 04:37:12.710] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/36456, l='ServerLevel[world]', x=-157.50, y=78.00, z=582.50]
+[25Nov2024 04:37:16.165] [Server thread/INFO] [do_a_barrel_roll/]: Client of miguelpolla08 accepted server config.
+[25Nov2024 04:37:37.804] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[25Nov2024 04:37:45.148] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/35650, l='ServerLevel[world]', x=1287.46, y=86.20, z=386.45] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:37:49.099] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/35653, l='ServerLevel[world]', x=1286.70, y=86.35, z=387.35] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:37:56.004] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/35652, l='ServerLevel[world]', x=1286.35, y=87.26, z=387.70] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:37:59.858] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2099ms or 41 ticks
+[25Nov2024 04:38:01.102] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[25Nov2024 04:38:09.541] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/35654, l='ServerLevel[world]', x=1286.76, y=87.00, z=387.49] died, message: 'Unemployed was slain by Zombie'
+[25Nov2024 04:38:22.306] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[25Nov2024 04:38:44.897] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[25Nov2024 04:38:48.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Sweet Dreams]
+[25Nov2024 04:39:40.698] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2072ms or 41 ticks
+[25Nov2024 04:39:43.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[25Nov2024 04:39:50.259] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/38424, l='ServerLevel[world]', x=-139.50, y=82.00, z=576.50]
+[25Nov2024 04:39:57.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Best Friends Forever]
+[25Nov2024 04:40:01.242] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
+[25Nov2024 04:40:17.714] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/38886, l='ServerLevel[world]', x=-153.50, y=77.00, z=545.50]
+[25Nov2024 04:40:41.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus hit the ground too hard
+[25Nov2024 04:40:46.741] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2115ms or 42 ticks
+[25Nov2024 04:40:47.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[25Nov2024 04:41:04.778] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2147ms or 42 ticks
+[25Nov2024 04:41:05.603] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[25Nov2024 04:41:19.368] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/39731, l='ServerLevel[world]', x=-140.50, y=82.00, z=576.50]
+[25Nov2024 04:42:01.992] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2057ms or 41 ticks
+[25Nov2024 04:42:16.957] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/40780, l='ServerLevel[world]', x=-167.50, y=71.00, z=554.50]
+[25Nov2024 04:42:31.608] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2008ms or 40 ticks
+[25Nov2024 04:42:56.265] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2098ms or 41 ticks
+[25Nov2024 04:43:27.440] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2017ms or 40 ticks
+[25Nov2024 04:44:43.382] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2585ms or 51 ticks
+[25Nov2024 04:46:03.888] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2067ms or 41 ticks
+[25Nov2024 04:47:14.400] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2029ms or 40 ticks
+[25Nov2024 04:47:34.097] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2106ms or 42 ticks
+[25Nov2024 04:47:40.886] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=-1585, y=-23, z=63}
+[25Nov2024 04:47:49.839] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2084ms or 41 ticks
+[25Nov2024 04:48:05.498] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2063ms or 41 ticks
+[25Nov2024 04:48:11.688] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/49935, l='ServerLevel[world]', x=-1377.50, y=84.00, z=107.50]
+[25Nov2024 04:48:20.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[25Nov2024 04:48:21.253] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2041ms or 40 ticks
+[25Nov2024 04:48:39.789] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2003ms or 40 ticks
+[25Nov2024 04:48:56.464] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2060ms or 41 ticks
+[25Nov2024 04:49:02.809] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[25Nov2024 04:49:13.585] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2043ms or 40 ticks
+[25Nov2024 04:49:30.367] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12585ms or 251 ticks behind
+[25Nov2024 04:49:52.813] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2051ms or 41 ticks
+[25Nov2024 04:50:39.938] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2008ms or 40 ticks
+[25Nov2024 04:51:19.285] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2143ms or 42 ticks
+[25Nov2024 04:51:28.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was energized by Lightning Dragon
+[25Nov2024 04:51:30.104] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[25Nov2024 04:51:34.670] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2206ms or 44 ticks
+[25Nov2024 04:51:47.564] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2482ms or 49 ticks behind
+[25Nov2024 04:52:31.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus was struck with lightning by a dragon
+[25Nov2024 04:52:33.634] [Server thread/INFO] [do_a_barrel_roll/]: Client of DominusCoitus accepted server config.
+[25Nov2024 04:52:54.210] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2075ms or 41 ticks
+[25Nov2024 04:54:12.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Diamonds!]
+[25Nov2024 04:54:33.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] esos diamantes seran pa mi
+[25Nov2024 04:54:45.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] supongo por el carry de programacion vrd jhon?
+[25Nov2024 04:54:55.259] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 4860ms or 97 ticks
+[25Nov2024 04:54:55.260] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3478ms or 69 ticks behind
+[25Nov2024 04:55:33.641] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/57643, l='ServerLevel[world]', x=1597.50, y=74.00, z=665.50]
+[25Nov2024 04:56:02.323] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2048ms or 40 ticks
+[25Nov2024 04:56:05.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Mine? Mine? Mine?]
+[25Nov2024 04:56:47.450] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/58643, l='ServerLevel[world]', x=1601.50, y=76.00, z=705.50]
+[25Nov2024 04:56:48.950] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/58655, l='ServerLevel[world]', x=1600.50, y=76.00, z=707.50]
+[25Nov2024 04:57:02.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost is bleeding. Ghost was slain by Grizzly Bear
+[25Nov2024 04:57:37.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost was slain by Grizzly Bear
+[25Nov2024 04:57:39.255] [Server thread/INFO] [do_a_barrel_roll/]: Client of Ghost accepted server config.
+[25Nov2024 04:57:45.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghost lost connection: Disconnected
+[25Nov2024 04:57:45.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghost left the game
+[25Nov2024 04:57:45.785] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59580, l='ServerLevel[world]', x=1621.50, y=76.00, z=703.50]
+[25Nov2024 04:58:21.786] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59861, l='ServerLevel[world]', x=1601.50, y=73.00, z=703.50]
+[25Nov2024 04:59:23.986] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60612, l='ServerLevel[world]', x=1597.50, y=74.00, z=663.50]
+[25Nov2024 04:59:30.236] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60684, l='ServerLevel[world]', x=1667.50, y=78.00, z=779.50]
+[25Nov2024 04:59:42.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Campfire Song Song]
+[25Nov2024 04:59:44.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Campfire Song Song]
+[25Nov2024 04:59:47.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Mine? Mine? Mine?]
+[25Nov2024 04:59:59.236] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60988, l='ServerLevel[world]', x=1601.50, y=76.00, z=706.50]
+[25Nov2024 05:00:04.313] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[25Nov2024 05:00:04.314] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[25Nov2024 05:00:04.314] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[25Nov2024 05:00:04.314] [Worker-Main-9/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[25Nov2024 05:00:07.050] [Worker-Main-11/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[25Nov2024 05:00:07.050] [Worker-Main-11/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[25Nov2024 05:01:15.386] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61736, l='ServerLevel[world]', x=1599.50, y=73.00, z=704.50]
+[25Nov2024 05:01:38.134] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2106ms or 42 ticks
+[25Nov2024 05:02:30.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Fishy Business]
+[25Nov2024 05:04:14.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Monster Hunter]
+[25Nov2024 05:04:38.510] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63140, l='ServerLevel[world]', x=1658.50, y=76.00, z=865.50]
+[25Nov2024 05:05:11.185] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63410, l='ServerLevel[world]', x=1658.50, y=76.00, z=866.50]
+[25Nov2024 05:05:38.185] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63622, l='ServerLevel[world]', x=1669.50, y=74.00, z=834.50]
+[25Nov2024 05:05:40.485] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63636, l='ServerLevel[world]', x=1692.50, y=74.00, z=803.50]
+[25Nov2024 05:05:54.486] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63715, l='ServerLevel[world]', x=1631.50, y=74.00, z=874.50]
+[25Nov2024 05:06:21.688] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64147, l='ServerLevel[world]', x=1666.50, y=78.00, z=777.50]
+[25Nov2024 05:06:35.185] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64241, l='ServerLevel[world]', x=1667.50, y=78.00, z=778.50]
+[25Nov2024 05:06:41.786] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64286, l='ServerLevel[world]', x=1702.50, y=74.00, z=815.50]
+[25Nov2024 05:06:42.435] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64287, l='ServerLevel[world]', x=1681.50, y=75.00, z=855.50]
+[25Nov2024 05:07:01.485] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64401, l='ServerLevel[world]', x=1672.50, y=76.00, z=881.50]
+[25Nov2024 05:07:19.836] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64522, l='ServerLevel[world]', x=1679.50, y=78.00, z=781.50]
+[25Nov2024 05:07:22.686] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64532, l='ServerLevel[world]', x=1667.50, y=78.00, z=777.50]
+[25Nov2024 05:07:27.284] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64562, l='ServerLevel[world]', x=1692.50, y=74.00, z=805.50]
+[25Nov2024 05:08:01.236] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64746, l='ServerLevel[world]', x=1623.50, y=76.00, z=703.50]
+[25Nov2024 05:09:00.985] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65079, l='ServerLevel[world]', x=1634.50, y=72.00, z=885.50]
+[25Nov2024 05:09:02.335] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65084, l='ServerLevel[world]', x=1674.50, y=75.00, z=788.50]
+[25Nov2024 05:09:19.585] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65200, l='ServerLevel[world]', x=1681.50, y=78.00, z=780.50]
+[25Nov2024 05:09:33.137] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65248, l='ServerLevel[world]', x=1673.50, y=75.00, z=790.50]
+[25Nov2024 05:09:46.335] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65330, l='ServerLevel[world]', x=1622.50, y=76.00, z=703.50]
+[25Nov2024 05:10:05.836] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65432, l='ServerLevel[world]', x=1692.50, y=74.00, z=804.50]
+[25Nov2024 05:10:06.185] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65434, l='ServerLevel[world]', x=1633.50, y=72.00, z=883.50]
+[25Nov2024 05:10:08.739] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65456, l='ServerLevel[world]', x=1656.50, y=76.00, z=866.50]
+[25Nov2024 05:10:10.285] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65458, l='ServerLevel[world]', x=1673.50, y=75.00, z=788.50]
+[25Nov2024 05:10:13.935] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65470, l='ServerLevel[world]', x=1695.50, y=77.00, z=824.50]
+[25Nov2024 05:10:23.585] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65546, l='ServerLevel[world]', x=1694.50, y=77.00, z=824.50]
+[25Nov2024 05:10:24.385] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/65566, l='ServerLevel[world]', x=1665.50, y=78.00, z=779.50]
+[25Nov2024 05:10:58.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Campfire Song Song]
+[25Nov2024 05:11:37.585] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66004, l='ServerLevel[world]', x=1691.50, y=75.00, z=871.50]
+[25Nov2024 05:11:48.484] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66068, l='ServerLevel[world]', x=1696.50, y=77.00, z=825.50]
+[25Nov2024 05:12:01.633] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2140ms or 42 ticks
+[25Nov2024 05:12:11.635] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66228, l='ServerLevel[world]', x=1692.50, y=75.00, z=872.50]
+[25Nov2024 05:12:28.084] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66291, l='ServerLevel[world]', x=1673.50, y=75.00, z=789.50]
+[25Nov2024 05:12:30.034] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66300, l='ServerLevel[world]', x=1668.50, y=74.00, z=836.50]
+[25Nov2024 05:12:52.134] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66392, l='ServerLevel[world]', x=1681.50, y=78.00, z=782.50]
+[25Nov2024 05:13:04.383] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66423, l='ServerLevel[world]', x=1670.50, y=73.00, z=821.50]
+[25Nov2024 05:13:15.834] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66436, l='ServerLevel[world]', x=1694.50, y=74.00, z=804.50]
+[25Nov2024 05:13:39.234] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66535, l='ServerLevel[world]', x=1694.50, y=77.00, z=825.50]
+[25Nov2024 05:14:06.486] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/66738, l='ServerLevel[world]', x=1669.50, y=73.00, z=822.50]
+[25Nov2024 05:14:36.435] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67027, l='ServerLevel[world]', x=1701.50, y=74.00, z=817.50]
+[25Nov2024 05:14:47.387] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67124, l='ServerLevel[world]', x=1694.50, y=74.00, z=805.50]
+[25Nov2024 05:14:48.035] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67125, l='ServerLevel[world]', x=1694.50, y=77.00, z=826.50]
+[25Nov2024 05:14:48.685] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67128, l='ServerLevel[world]', x=1630.50, y=74.00, z=925.50]
+[25Nov2024 05:15:27.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Siren
+[25Nov2024 05:15:27.836] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67415, l='ServerLevel[world]', x=1678.50, y=77.00, z=894.50]
+[25Nov2024 05:15:32.038] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67440, l='ServerLevel[world]', x=1692.50, y=75.00, z=870.50]
+[25Nov2024 05:15:46.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Not Today, Thank You]
+[25Nov2024 05:15:53.883] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67572, l='ServerLevel[world]', x=1599.50, y=73.00, z=702.50]
+[25Nov2024 05:16:23.684] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/67793, l='ServerLevel[world]', x=1601.50, y=76.00, z=707.50]
+[25Nov2024 05:16:27.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS was slain by Siren
+[25Nov2024 05:16:29.762] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 05:16:36.588] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/68096, l='ServerLevel[world]', x=1678.50, y=77.00, z=895.50]
+[25Nov2024 05:17:40.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was doomed to fall
+[25Nov2024 05:17:50.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS was doomed to fall
+[25Nov2024 05:17:52.125] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 05:18:24.986] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/69510, l='ServerLevel[world]', x=1678.50, y=77.00, z=893.50]
+[25Nov2024 05:19:13.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Ol' Betsy]
+[25Nov2024 05:19:13.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Take Aim]
+[25Nov2024 05:19:56.620] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2109ms or 42 ticks
+[25Nov2024 05:20:08.093] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71137, l='ServerLevel[world]', x=1675.50, y=75.00, z=789.50]
+[25Nov2024 05:20:15.485] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71194, l='ServerLevel[world]', x=1691.50, y=75.00, z=870.50]
+[25Nov2024 05:20:26.147] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71290, l='ServerLevel[world]', x=1669.50, y=74.00, z=835.50]
+[25Nov2024 05:20:27.889] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71303, l='ServerLevel[world]', x=1671.50, y=76.00, z=883.50]
+[25Nov2024 05:20:58.646] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71667, l='ServerLevel[world]', x=1679.50, y=75.00, z=854.50]
+[25Nov2024 05:21:10.252] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/71903, l='ServerLevel[world]', x=1649.50, y=73.00, z=911.50]
+[25Nov2024 05:21:13.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Who's the Pillager Now?]
+[25Nov2024 05:21:19.298] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/72000, l='ServerLevel[world]', x=1673.50, y=76.00, z=881.50]
+[25Nov2024 05:21:22.385] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/72050, l='ServerLevel[world]', x=1644.50, y=72.00, z=912.50]
+[25Nov2024 05:21:38.931] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/72247, l='ServerLevel[world]', x=1630.50, y=74.00, z=872.50]
+[25Nov2024 05:22:20.829] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2163ms or 43 ticks
+[25Nov2024 05:22:35.840] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2084ms or 41 ticks
+[25Nov2024 05:22:42.891] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/72978, l='ServerLevel[world]', x=1671.50, y=76.00, z=881.50]
+[25Nov2024 05:23:08.286] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2056ms or 41 ticks
+[25Nov2024 05:23:14.816] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/74792, l='ServerLevel[world]', x=1672.50, y=75.00, z=910.50]
+[25Nov2024 05:23:23.145] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75305, l='ServerLevel[world]', x=1671.50, y=76.00, z=882.50]
+[25Nov2024 05:23:28.353] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75612, l='ServerLevel[world]', x=1666.50, y=78.00, z=779.50]
+[25Nov2024 05:23:35.406] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75958, l='ServerLevel[world]', x=1670.50, y=75.00, z=910.50]
+[25Nov2024 05:23:52.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 has made the advancement [Tie me to the Mast]
+[25Nov2024 05:23:54.847] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2114ms or 42 ticks
+[25Nov2024 05:24:06.742] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/77964, l='ServerLevel[world]', x=1700.50, y=74.00, z=816.50]
+[25Nov2024 05:24:56.199] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2019ms or 40 ticks
+[25Nov2024 05:26:22.456] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: miguelpolla08 lost connection: Disconnected
+[25Nov2024 05:26:22.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: miguelpolla08 left the game
+[25Nov2024 05:27:35.534] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/81876, l='ServerLevel[world]', x=1643.50, y=72.00, z=910.50]
+[25Nov2024 05:27:57.533] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/82020, l='ServerLevel[world]', x=1693.50, y=75.00, z=870.50]
+[25Nov2024 05:27:59.233] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2035ms or 40 ticks
+[25Nov2024 05:28:04.984] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/82048, l='ServerLevel[world]', x=1693.50, y=75.00, z=872.50]
+[25Nov2024 05:28:20.135] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/82116, l='ServerLevel[world]', x=1656.50, y=76.00, z=865.50]
+[25Nov2024 05:28:40.598] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DominusCoitus lost connection: Disconnected
+[25Nov2024 05:28:40.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus left the game
+[25Nov2024 05:33:29.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Goezz[/100.71.167.102:60009] logged in with entity id 83786 at (2015.1038914862643, 100.0, 431.3258092260843)
+[25Nov2024 05:33:29.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz joined the game
+[25Nov2024 05:33:29.219] [Server thread/INFO] [Jade/]: Syncing config to Goezz (638f9b0f-fa1b-3f7c-ad33-43ff8ea00123)
+[25Nov2024 05:33:32.274] [Server thread/INFO] [do_a_barrel_roll/]: Client of Goezz accepted server config.
+[25Nov2024 05:34:05.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 0.2956968697872071
+[25Nov2024 05:34:05.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 0.7926264164004806
+[25Nov2024 05:34:05.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 1.2974888952462607
+[25Nov2024 05:34:54.857] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 0.3245914367107616
+[25Nov2024 05:34:54.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 0.8437005821813273
+[25Nov2024 05:34:54.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of PieroS) moved wrongly! 0.363355255199167
+[25Nov2024 05:35:27.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 05:37:50.823] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2141ms or 42 ticks
+[25Nov2024 05:38:00.171] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DominusCoitus[/100.92.70.105:56848] logged in with entity id 86021 at (1426.9962372096832, 69.0, 805.0033799327812)
+[25Nov2024 05:38:00.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus joined the game
+[25Nov2024 05:38:00.263] [Server thread/INFO] [Jade/]: Syncing config to DominusCoitus (98444eaa-ae1d-339f-bbd8-ac0f32676ac1)
+[25Nov2024 05:38:02.612] [Server thread/INFO] [do_a_barrel_roll/]: Client of DominusCoitus accepted server config.
+[25Nov2024 05:38:03.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Not Today, Thank You]
+[25Nov2024 05:44:15.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [Sea? Not a Problem]
+[25Nov2024 05:45:59.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz is bleeding. Goezz was slain by Lightning Dragon
+[25Nov2024 05:46:04.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 05:46:12.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 05:46:47.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [Birds of a Feather]
+[25Nov2024 05:47:43.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[25Nov2024 05:47:54.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 05:48:06.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[25Nov2024 05:49:21.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Birds of a Feather]
+[25Nov2024 05:49:36.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Take Aim]
+[25Nov2024 05:51:03.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was burnt to a crisp whilst fighting Umvuthi, the Sunbird
+[25Nov2024 05:51:05.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has completed the challenge [Praise the Sun]
+[25Nov2024 05:54:11.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DominusCoitus> ZZZZZZ
+[25Nov2024 05:55:06.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was blown up by Creeper
+[25Nov2024 05:55:21.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Umvuthana Crane
+[25Nov2024 05:55:39.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Umvuthana Crane
+[25Nov2024 05:55:43.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PieroS lost connection: Disconnected
+[25Nov2024 05:55:43.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS left the game
+[25Nov2024 05:55:43.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS was slain by Umvuthana Crane
+[25Nov2024 05:55:58.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PieroS[/100.98.207.89:58695] logged in with entity id 92113 at (1258.5318098676184, 84.0, 1029.6216717110447)
+[25Nov2024 05:55:58.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS joined the game
+[25Nov2024 05:55:58.213] [Server thread/INFO] [Jade/]: Syncing config to PieroS (b243f56c-8220-3c58-81df-c48b48ade004)
+[25Nov2024 05:56:01.266] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 05:56:01.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 05:56:05.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 05:56:06.057] [Server thread/INFO] [do_a_barrel_roll/]: Client of PieroS accepted server config.
+[25Nov2024 05:56:11.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:03:49.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [Local Brewery]
+[25Nov2024 06:04:19.312] [Worker-Main-9/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Nov2024 06:04:52.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was chopped to bits by Skirmisher
+[25Nov2024 06:05:05.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to DominusCoitus]
+[25Nov2024 06:06:42.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Diamonds!]
+[25Nov2024 06:06:48.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Ice Bucket Challenge]
+[25Nov2024 06:06:59.784] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/96155, l='ServerLevel[world]', x=1598.50, y=77.00, z=950.50]
+[25Nov2024 06:08:57.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was slain by Cyclops
+[25Nov2024 06:09:04.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:10:08.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was slain by Cyclops
+[25Nov2024 06:10:19.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:10:56.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was doomed to fall by Cyclops
+[25Nov2024 06:11:00.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was slain by Cyclops
+[25Nov2024 06:11:05.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:11:38.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz is bleeding. Goezz fell from a high place
+[25Nov2024 06:11:45.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:11:49.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:12:24.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [My Name is Nobody]
+[25Nov2024 06:13:37.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Goezz> zZz
+[25Nov2024 06:14:02.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was blown up by Creeper
+[25Nov2024 06:14:06.126] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2002ms or 40 ticks
+[25Nov2024 06:15:09.977] [Worker-Main-10/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Nov2024 06:15:16.620] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Goezz lost connection: Disconnected
+[25Nov2024 06:15:16.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz left the game
+[25Nov2024 06:18:07.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Goezz[/100.71.167.102:60137] logged in with entity id 99852 at (1883.0875898490528, 123.0, 1305.8541518769828)
+[25Nov2024 06:18:07.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz joined the game
+[25Nov2024 06:18:07.877] [Server thread/INFO] [Jade/]: Syncing config to Goezz (638f9b0f-fa1b-3f7c-ad33-43ff8ea00123)
+[25Nov2024 06:18:10.424] [Server thread/INFO] [do_a_barrel_roll/]: Client of Goezz accepted server config.
+[25Nov2024 06:18:29.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:19:37.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:20:00.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus was slain by Dread Ghoul
+[25Nov2024 06:20:02.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:20:07.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS has made the advancement [Who You Gonna Call?]
+[25Nov2024 06:20:10.686] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/100960, l='ServerLevel[world]', x=2119.50, y=70.00, z=1081.50]
+[25Nov2024 06:20:18.886] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/101009, l='ServerLevel[world]', x=2168.50, y=90.00, z=1076.50]
+[25Nov2024 06:20:31.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:21:45.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:21:47.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz is bleeding. Goezz fell from a high place
+[25Nov2024 06:21:50.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:22:01.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:23:31.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:24:41.519] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2039ms or 40 ticks
+[25Nov2024 06:24:44.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Light as a Rabbit]
+[25Nov2024 06:26:37.502] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2053ms or 41 ticks
+[25Nov2024 06:26:46.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Dread Ghoul
+[25Nov2024 06:26:55.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:27:28.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:27:39.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:27:51.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:28:04.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:28:11.597] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2117ms or 42 ticks
+[25Nov2024 06:28:27.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [Hot Stuff]
+[25Nov2024 06:28:32.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:28:37.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Dread Ghoul
+[25Nov2024 06:28:41.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:29:09.171] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2109ms or 42 ticks
+[25Nov2024 06:29:43.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:29:45.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to PieroS]
+[25Nov2024 06:29:49.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported Goezz to DominusCoitus]
+[25Nov2024 06:29:50.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Dread Ghoul
+[25Nov2024 06:29:52.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:30:40.401] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2118ms or 42 ticks
+[25Nov2024 06:31:59.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz has made the advancement [Another Brick in the Wall]
+[25Nov2024 06:32:03.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS was slain by Dread Ghoul
+[25Nov2024 06:32:18.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus is bleeding. DominusCoitus hit the ground too hard whilst trying to escape Dread Ghoul
+[25Nov2024 06:32:47.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:32:55.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:33:21.649] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2064ms or 41 ticks
+[25Nov2024 06:34:22.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus has made the advancement [Hot Stuff]
+[25Nov2024 06:34:47.795] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2014ms or 40 ticks
+[25Nov2024 06:35:43.799] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2114ms or 42 ticks
+[25Nov2024 06:37:05.055] [Worker-Main-11/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[25Nov2024 06:37:41.305] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location BlockPos{x=2647, y=-39, z=1441}
+[25Nov2024 06:37:50.970] [Worker-Main-10/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Nov2024 06:38:53.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz is bleeding. Goezz was burnt to a crisp whilst fighting Fire Dragon
+[25Nov2024 06:39:03.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz burned to death
+[25Nov2024 06:39:05.663] [Server thread/INFO] [do_a_barrel_roll/]: Client of Goezz accepted server config.
+[25Nov2024 06:40:05.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS is bleeding. PieroS walked into fire whilst fighting Fire Dragon
+[25Nov2024 06:40:17.634] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/104375, l='ServerLevel[world]', x=2699.50, y=93.00, z=1361.50]
+[25Nov2024 06:40:18.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:41:27.023] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2549, y=107, z=1359} BlockPos{x=2549, y=107, z=1358}
+[25Nov2024 06:41:27.078] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2549, y=107, z=1359} BlockPos{x=2549, y=107, z=1358}
+[25Nov2024 06:41:27.112] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2549, y=107, z=1359} BlockPos{x=2549, y=107, z=1358}
+[25Nov2024 06:41:27.161] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2549, y=107, z=1359} BlockPos{x=2549, y=107, z=1358}
+[25Nov2024 06:41:27.224] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2549, y=107, z=1359} BlockPos{x=2549, y=107, z=1358}
+[25Nov2024 06:44:04.084] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/105309, l='ServerLevel[world]', x=2656.50, y=74.00, z=1236.50]
+[25Nov2024 06:45:09.312] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2017ms or 40 ticks
+[25Nov2024 06:46:35.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported PieroS to Goezz]
+[25Nov2024 06:46:38.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Goezz: Teleported DominusCoitus to Goezz]
+[25Nov2024 06:46:40.259] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2713ms or 54 ticks
+[25Nov2024 06:48:22.440] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Goezz lost connection: Disconnected
+[25Nov2024 06:48:22.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Goezz left the game
+[25Nov2024 06:48:23.940] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DominusCoitus lost connection: Disconnected
+[25Nov2024 06:48:23.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DominusCoitus left the game
+[25Nov2024 06:48:31.243] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PieroS lost connection: Disconnected
+[25Nov2024 06:48:31.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PieroS left the game
+[25Nov2024 06:48:54.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Nov2024 06:48:54.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Nov2024 06:48:54.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Nov2024 06:48:54.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Nov2024 06:48:54.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Nov2024 06:48:54.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[25Nov2024 06:48:54.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Nov2024 06:48:54.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Nov2024 06:48:54.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Nov2024 06:48:54.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[25Nov2024 06:48:54.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Nov2024 06:48:54.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Nov2024 06:48:54.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Nov2024 06:48:55.060] [Server thread/INFO] [Framework/]: Unloading server configs...
+[25Nov2024 06:48:55.060] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[25Nov2024 06:48:55.066] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
